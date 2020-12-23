@@ -10,7 +10,6 @@ namespace SMAService.Dao
   public  interface IDao
     {
         public List<Item> getItems(int index);
-
         public Item addItem(Item item);
     }
 }
